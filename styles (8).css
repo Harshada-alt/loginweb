@@ -1,0 +1,167 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fdf6f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    height: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-box {
+    text-align: center;
+}
+.logo {
+        display: block; /* Ensure the image behaves like a block-level element */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px; /* Add some space below the logo */
+        width: 150px; /* You can adjust the size of the logo as needed */
+    
+}
+
+
+.profile-pic {
+    width: 100%; 
+    height: auto; 
+    max-width: 150px; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto 10px auto; 
+}
+
+h2 {
+    margin: 0; 
+    padding-top: 10px; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.google-btn:hover {
+    background-color: #550a8a; /* Darker purple on hover */
+    box-shadow: 0 8px 12px rgba(128, 0, 128, 0.7); /* Purple glow effect on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.google-btn:active {
+    transform: scale(0.95); /* Slight shrink on click */
+    box-shadow: 0 4px 6px rgba(128, 0, 128, 0.5); /* Retain smaller shadow */
+    background-color: #4e0872; /* Darkest shade when clicked */
+}
+
+
+.facebook-btn {
+    background-color:  #6a0dad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+.facebook-btn:hover {
+    background-color: #550a8a; /* Darker purple on hover */
+    box-shadow: 0 8px 12px rgba(128, 0, 128, 0.7); /* Purple glow effect on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.facebook-btn:active {
+    transform: scale(0.95); /* Slight shrink on click */
+    box-shadow: 0 4px 6px rgba(128, 0, 128, 0.5); /* Retain smaller shadow */
+    background-color: #4e0872; /* Darkest shade when clicked */
+}
+
+.continue-with {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sign-in-btn {
+    background-color: #1f50d4;
+    color: rgb(30, 85, 204);
+}
+
+
+p a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+/* Login Button Styles */
+.btn {
+    width: 100%; /* Full width inside the form */
+    padding: 12px 20px; /* Padding for the button */
+    background-color: #6a0dad; /* Purple background */
+    border: none; /* Remove default borders */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* White text */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    text-align: center;
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: #550a8a; /* Darker purple on hover */
+    box-shadow: 0 8px 12px rgba(128, 0, 128, 0.7); /* Purple glow effect on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Focus Effect */
+.btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 12px 2px rgba(128, 0, 128, 0.7); /* Purple glow around the button */
+}
+
+/* Active State (when button is clicked) */
+.btn:active {
+    transform: scale(0.95); /* Slight shrink on click */
+    box-shadow: 0 4px 6px rgba(128, 0, 128, 0.5); /* Retain smaller shadow */
+    background-color: #4e0872; /* Darkest shade when clicked */
+}
+
